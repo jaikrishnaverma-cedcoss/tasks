@@ -1,0 +1,80 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.nav{
+  background-color: #009879;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(64, 64, 64);
+}
+.nav a{
+  border: 2px solid rgb(254, 248, 248);
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.nav a:hover{
+  background-color: transparent;
+  color: white;
+}
+.App-btn{
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: #009879;
+  color: white;
+}
+.App-btn:hover{
+  background-color: #0084ff;
+  color: white;
+  font-weight: 600;
+}
